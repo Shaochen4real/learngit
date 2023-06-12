@@ -13,3 +13,4 @@ This project is a test project to learn git.
 12.	git reset --hard HEAD^	restore previous version (^^, restore to 2 versions before; ~100, restore to 100 versions before)
 13.	git reset --hard ref(e.g. d862f)	restore to the ref version
 14.	git reflog	show ref logs
+15.	git diff HEAD -- filename	show differences between master and workpath
