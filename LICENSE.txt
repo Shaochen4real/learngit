@@ -14,3 +14,6 @@ This project is a test project to learn git.
 13.	git reset --hard ref(e.g. d862f)	restore to the ref version
 14.	git reflog	show ref logs
 15.	git diff HEAD -- filename	show differences between master and workpath
+16.	git checkout -- filename	restore modifications to last commit or add
+17.	git reset HEAD --filename	restore added file in stage back to workpath 
+
