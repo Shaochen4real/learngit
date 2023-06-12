@@ -1,0 +1,15 @@
+This project is a test project to learn git.
+1.	mkdir ProjectnName	create project folder
+2.	pwd	show current path
+3.	git init	initialize a git project
+4.	git config --global user.email "you@example.com"	configure email
+5.	git config --global user.name "Your Name"	configure name
+6.	git add	add or modify file in project folder
+7. 	git commit -m "message"	submit the change made and leave message
+8. 	git status	show project status
+9.	git diff filename	show unsubmitted modification of the file
+10.	git log	show logs of the project
+11.	git log --pretty=oneline	show logs in oneline format
+12.	git reset --hard HEAD^	restore previous version (^^, restore to 2 versions before; ~100, restore to 100 versions before)
+13.	git reset --hard ref(e.g. d862f)	restore to the ref version
+14.	git reflog	show ref logs
